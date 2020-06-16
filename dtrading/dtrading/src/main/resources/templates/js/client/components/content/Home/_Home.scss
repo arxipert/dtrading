@@ -1,0 +1,121 @@
+$px: .069445;
+
+.content {
+  display: flex;
+  padding: 72vw * $px 36vw * $px;
+}
+
+
+.content-left, .content-right {
+  width: 50%;
+}
+
+.content-left {
+  text-align: center;
+}
+
+.content-left_header {
+  font-family: Roboto-Regular;
+  font-size: 21vw * $px;
+  line-height: 120%;
+  color: #000;
+  margin-bottom: 41vw * $px;
+}
+
+.content-left_body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 36vw * $px;
+}
+
+.content-left_body_card {
+  width: calc(50% - 24px);
+  padding: 64vw * $px 34vw * $px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 37vw * $px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10vw * $px;
+  background-color: #fff;
+  img {
+	margin-bottom: 38vw * $px;
+	width:auto;
+	height: auto;
+  }
+  p {
+	font-family: Roboto-Regular;
+	font-size: 13vw * $px;
+	line-height: 150%;
+	color: #202024;
+  }
+}
+
+.content-right {
+  padding: 66vw * $px 50vw * $px 0 97vw * $px;
+}
+
+.content-right_header {
+  font-family: Roboto-Regular;
+  font-size: 21vw * $px;
+  line-height: 140%;
+  color: #191F28;
+  margin-bottom: 62vw * $px;
+}
+
+.content-right_body {
+  list-style-type: none;
+  margin-bottom: 92vw * $px;
+  li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 46vw * $px;
+	&:last-of-type {
+	  margin-bottom: 0;
+	}
+	img {
+	  width: 24vw * $px;
+	  height: 24vw * $px;
+	  margin-right: 31vw * $px;
+	}
+	p {
+	  font-family: Roboto-Regular;
+	  font-size: 13vw * $px;
+	  line-height: 150%;
+	  color: #191F28;
+	  max-width: 50%;
+	}
+  }
+}
+
+.content-right_footer {
+  display: flex;
+  .yellow-btn {
+	&:first-of-type {
+	  margin-right: 29vw * $px;
+	}
+  }
+}
+
+.yellow-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto-Regular;
+  font-size: 11px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #0E131A;
+  background-color: #FED100;
+  padding: 26vw * $px 33vw * $px;
+  max-width: 250vw * $px;
+  width: 100%;
+  text-align: center;
+  transition: all .3s;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5vw * $px;
+  &:hover {
+	background-color: #0E131A;
+	color: #fff;
+  }
+}

@@ -1,0 +1,75 @@
+//.consultation-contract-popup {
+//  margin: auto;
+//  width: 50%;
+//  padding: 5% 10%;
+//  background: #fff;
+//
+//  &_container {
+//    position: fixed;
+//    top: 0;
+//    left: 0;
+//    width: 100vw;
+//    height: 100vh;
+//    display: flex;
+//    background: rgba(0, 0, 0, .7);
+//  }
+//
+//  &_panel {
+//    display: flex;
+//    justify-content: flex-end;
+//
+//    &_left, &_right {
+//      width: 48%;
+//    }
+//
+//    &_left {
+//      text-align: left;
+//    }
+//
+//    &_right {
+//      text-align: right;
+//    }
+//  }
+//
+//  &_header {
+//    text-align: center;
+//  }
+//  &_body {
+//    margin: 20px 0;
+//    &_container {
+//      display: flex;
+//      justify-content: space-between;
+//      flex-wrap: wrap;
+//    }
+//  }
+//}
+//
+//.consultation-contract-popup_steps {
+//  display: flex;
+//  justify-content: space-around;
+//  margin-top: 10px;
+//}
+//
+//.consultation-contract-popup_steps_item {
+//  cursor: pointer;
+//}
+//
+//.consultation-contract-popup_steps_item.active {
+//  color: red;
+//}
+//
+//.consultation-contract-type_item {
+//  width: 48%;
+//  height: 240px;
+//  margin-top: 20px;
+//  cursor: pointer;
+//
+//  &.chosen {
+//    border: 2px solid orange;
+//  }
+//
+//  img {
+//    width: 100%;
+//    height: 100%;
+//  }
+//}
