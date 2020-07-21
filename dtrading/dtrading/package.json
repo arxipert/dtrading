@@ -4,7 +4,7 @@
   "dependencies": {},
   "devDependencies": {
     "axios": "^0.19.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "vue": "^2.6.11",
     "vue-moment": "^4.1.0"
   }
